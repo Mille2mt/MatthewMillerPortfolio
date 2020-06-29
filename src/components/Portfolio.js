@@ -17,6 +17,7 @@ export default class Portfolio extends React.Component {
         return (
             <div>
                 <Header logo={logo} quote={quote}/>
+                <Footer logo={logo} />
                 <Jumbotron />
                 <AboutMe />         
                 <HireMe />    
