@@ -26,7 +26,7 @@ export default class AboutMe extends React.Component {
                         <h4 className='aboutMeTitle'>About Me</h4>
                     </div>
                     <div className='aboutme--info'>
-                        <p>With almost a decade of experience in the fitness and rehab industry, I have decided to take a leap of faith and make a career change to the world of IT. I find it absolutely fascinating but also stable with a nearly unlimited ceiling. Although I don't have any direct experience in the field, I feel that I have always been the one people reach out to when they need computer help and I believe I am naturally tech savvy.  The past four years I have spent teaching myself the basics of: </p>
+                        <p>With almost a decade of experience in the fitness and rehab industry, I have decided to take a leap of faith and make a career change to the world of IT. I find it absolutely fascinating but also stable with a nearly unlimited ceiling. Although I don't have any direct experience in the field, I have always been the one people reach out to when they need computer help and I believe I am naturally tech savvy.  The past four years I have spent teaching myself the basics of: </p>
 
                         <ul className='techList'>
                             <li className='myHTML'>HTML,</li>

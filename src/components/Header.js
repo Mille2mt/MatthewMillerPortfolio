@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faLinkedin, faGithubSquare, faCodepen } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithubSquare, faCodepen } from '@fortawesome/free-brands-svg-icons';
 
 const Header = (props) => {
     return (
@@ -11,8 +11,7 @@ const Header = (props) => {
                         <h3 className='nav--logo'>{props.logo}</h3>
                         <h5 className='nav--quote'>{props.quote}</h5>
                     </div>
-                    <ul className='footerIconList'>
-                        
+                    <ul className='footerIconList'>                        
                         <a href='https://www.linkedin.com/in/mille2mt/' target='_blank'><FontAwesomeIcon className='socialLink' icon={faLinkedin} /></a>
                         <a href='https://github.com/Mille2mt' target='_blank'><FontAwesomeIcon className='socialLink' icon={faGithubSquare} /></a>
                         <a href='https://codepen.io/mille2mt' target='_blank'><FontAwesomeIcon className='socialLink' icon={faCodepen} /></a>            
