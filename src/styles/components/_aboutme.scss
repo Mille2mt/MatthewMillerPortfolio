@@ -1,0 +1,68 @@
+.aboutme {
+    background: $dark;
+    margin: $xl-size;
+    padding: 0;
+}
+
+.aboutme--container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutme--container h4 {
+    border-bottom: 4px solid $lime;
+    font-size: $l-size;
+    padding-bottom: 10px;    
+}
+
+.aboutme--info {
+    text-align: center;
+    line-height: $l-size;
+    max-width: 60%;
+}
+
+.techList {
+    font-size: $l-size;
+    list-style: none;    
+    line-height: $xl-size;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.myHTML {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;    
+}
+
+.myC {
+    color: orange;
+    font-weight: bold;
+    font-family: 'Staatliches', cursive;
+}
+
+.myS1 {
+    color: yellow;
+    font-weight: bold;
+    font-family: 'Staatliches', cursive;
+}
+
+.myS2 {
+    color: $lime;
+    font-weight: bold;
+    font-family: 'Staatliches', cursive;
+}
+
+.myReact {
+    color: rgb(97, 219, 251);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.button--container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 60%;
+}

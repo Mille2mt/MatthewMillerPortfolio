@@ -1,0 +1,31 @@
+.experience {
+    background: $dark;
+    padding: $l-size;
+}
+
+.titleContainer {
+    margin: 25px auto;
+}
+
+.experience .title {
+    border-bottom: 4px solid $lime;
+    font-size: $l-size;
+    margin: 0 auto;
+    max-width: 20%;
+    padding-bottom: 10px;    
+    text-align: center;
+}
+
+.experience p {
+    margin: 20px auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.cardContainer {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+}

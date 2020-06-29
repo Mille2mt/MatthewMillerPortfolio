@@ -1,0 +1,21 @@
+.nav {
+    background: $darkest;
+}
+
+.nav--logo {
+    color: $lime;
+    font-size: $l-size;
+    display: flex;
+    margin: $s-size auto;
+}
+
+.nav--quote {
+    margin: $s-size auto;
+}
+
+.nav--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}

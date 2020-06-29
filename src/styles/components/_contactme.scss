@@ -1,0 +1,24 @@
+.contact {
+    background: $darker;
+    display: flex;
+    justify-content: space-around;
+    padding: $xl-size;
+}
+
+.contactTitle {
+    border-bottom: 4px solid $lime;
+    font-size: $l-size;
+    height: 60%;
+    margin: 0;    
+}
+
+.contactInfo h3 {
+    font-size: $l-size;
+    text-align: center;
+}
+
+.contactInfoList {
+    line-height: $l-size;
+    list-style-type: none;
+    text-align: center;
+}

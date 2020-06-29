@@ -1,0 +1,34 @@
+.nav--button {
+    background: none;
+    border: 2px solid transparent;
+    color: $off-white;
+    font-size: $m-size;
+    font-weight: 600;
+    line-height: $m-size;
+    outline: none;
+    padding: $s-size;
+}
+
+.nav--button:hover {
+    border-bottom: 2px solid $lime;
+    color: $lime;
+    cursor: pointer;    
+}
+
+.button {
+    background: $lime;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: $m-size;
+    height: $xl-size;
+    outline: none;
+    width: 16rem;
+    z-index: 5;
+}
+
+.button:hover {
+    background: lighten($lime,5%);
+    cursor: pointer;
+}
