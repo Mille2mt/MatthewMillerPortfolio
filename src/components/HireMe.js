@@ -5,7 +5,7 @@ const HireMe = () => {
         <div className='hireMe'>
             <div className='container'>
                 <div className='hireContainer'>
-                    <h3 className='title'>Project in mind?</h3>
+                    <h3 className='title'>Project in Mind?</h3>
                     <button className='button'>Let's chat!</button>
                 </div>   
             </div>         

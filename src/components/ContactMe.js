@@ -6,7 +6,7 @@ const ContactMe = () => (
             <h3>Contact Me</h3>
         </div>
         <div className='contactInfo'>
-            <h3>Contact information</h3>
+            <h3>Contact Information</h3>
             <div className='contactInfoList'>
                 <li className='info'>Charleston, South Carolina</li>
                 <li className='info'>540.529.3771</li>
