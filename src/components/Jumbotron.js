@@ -9,7 +9,7 @@ const Jumbotron = () => {
                 <div className='jumbotron--container'>
                     <div className='jumbotron--info'>
                         <h1>I'm Matthew</h1>
-                        <h4>Your next entry-level Web Dev and UI/UX designer.</h4>
+                        <h4>Your next entry-level Web Developer and UI/UX designer.</h4>
                         <button className='button'>Hire me.</button>
                     </div>
                     <div className='jumbotron--image--container'>
