@@ -8,7 +8,7 @@ const Jumbotron = () => {
             <div className='container'>
                 <div className='jumbotron--container'>
                     <div className='jumbotron--info'>
-                        <h1>I'm Matthew.</h1>
+                        <h1>I'm Matthew</h1>
                         <h4>Your next entry-level Web Dev and UI/UX designer.</h4>
                         <button className='button'>Hire me.</button>
                     </div>
