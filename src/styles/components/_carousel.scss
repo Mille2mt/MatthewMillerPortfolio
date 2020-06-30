@@ -1,0 +1,21 @@
+.carousel .slide {
+    background: $dark;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.carousel .slider-wrapper {
+    align-items: center;
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 25px solid black;
+    margin-right: 20px;
+    margin-top: 125px;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 25px solid black;
+    margin-left: 20px;
+    margin-top: 125px;
+}

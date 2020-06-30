@@ -7,6 +7,7 @@ import Experience from './Experience';
 import HireMe from './HireMe';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
+import DemoCarousel from './Carousel';
 
 export default class Portfolio extends React.Component {    
     
@@ -16,16 +17,14 @@ export default class Portfolio extends React.Component {
 
         return (
             <div>
-            <Header logo={logo} quote={quote}/>
-            <Jumbotron />
-            <AboutMe />
-            <HireMe />   
-            <Experience />
-            <ContactMe />
-            <Footer logo={logo} /> 
+                <Header logo={logo} quote={quote}/>
+                <Jumbotron />
+                <AboutMe />
+                <HireMe /> 
+                <DemoCarousel />
+                <ContactMe />
+                <Footer logo={logo} />
             </div>
         )
     }
 }
-
-

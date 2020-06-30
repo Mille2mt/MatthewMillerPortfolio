@@ -3,11 +3,9 @@
     border-radius: 20px;    
     box-shadow: 7px 7px $darkest;
     color: black;
-    height: 280px;    
     margin: $m-size;
     overflow: hidden;
     padding: 10px;
-    width: 18%;    
 }
 
 h6 {
@@ -21,17 +19,4 @@ h6 {
 .cardSubtitle {
     line-height: 2rem;;
     padding-top: 5px;
-}
-
-.card .notShowing {
-    display: none;
-    line-height: 2.0rem;
-}
-
-.card:hover .notShowing {
-    display: contents;
-}
-
-.card:hover .showing {
-    display: none;
 }
