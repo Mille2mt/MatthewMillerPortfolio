@@ -21,7 +21,7 @@ export default class AboutMe extends React.Component {
         <div className='section aboutme'>
             <div className='container'>
                 <div className='row u-full-width'>
-                    <p>With almost a decade of experience in the fitness and rehab industry, I have decided to take a leap of faith and make a career change to the world of IT. I find it absolutely fascinating but also stable with a nearly unlimited ceiling. Although I don't have any direct experience in the field, I have always been the one people reach out to when they need computer help and I believe I am naturally tech savvy.  The past four years I have spent teaching myself the basics of: </p>
+                    <p>With almost a decade of experience in the fitness and rehab industry, I have decided to take a leap of faith and make a career change to the world of IT. I find it exciting and challenging, while also stable with immense opportunities for growth and career growth. Throughout my career thus far, I have always been the in-house tech guy as I am technologically savvy and this has driven me to make this career change. I am currently seeking my first full-time position in the field and I am self-taught in the basics of: </p>
     
                     <ul className='techList'>
                         <li className='myHTML'>HTML,</li>
