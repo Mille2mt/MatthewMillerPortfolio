@@ -8,12 +8,12 @@ const Footer = (props) => {
             <div className='container'>
                 <div className='footerContent'>
                     <h3 className='nav--logo'>{props.logo}</h3>
-                    <ul className='footerIconList'>
-                        
+                    <ul className='footerIconList'>                        
                         <a href='https://www.linkedin.com/in/mille2mt/' target='_blank'><FontAwesomeIcon className='socialLink' icon={faLinkedin} /></a>
                         <a href='https://github.com/Mille2mt' target='_blank'><FontAwesomeIcon className='socialLink' icon={faGithubSquare} /></a>
                         <a href='https://codepen.io/mille2mt' target='_blank'><FontAwesomeIcon className='socialLink' icon={faCodepen} /></a>            
                     </ul>  
+                    <h5>Let's network!</h5>
                 </div>
             </div>          
         </div>
