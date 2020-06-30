@@ -4,18 +4,24 @@
 
 .nav--logo {
     color: $lime;
-    font-size: $l-size;
-    display: flex;
-    margin: $s-size auto;
-}
-
-.nav--quote {
-    margin: $s-size auto;
-}
-
-.nav--container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    font-size: $l-size;    
     margin: 0 auto;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.headerIconList {
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.container:after, .row:after, .u-cf {
+    content: none;
+    display: table;
+    clear: both;
 }
