@@ -1,6 +1,11 @@
 .nav {
     background: $darkest;
-    width: 100%;
+    padding: 0 5px;
+}
+
+.details {
+    text-align: center;
+    padding-top: 10px
 }
 
 .nav--logo {
@@ -9,20 +14,8 @@
     margin: 0 auto;
 }
 
-.row {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;  
-}
-
 .headerIconList {
     color: white;
     text-align: center;
-    padding: 0;
 }
 
-.container:after, .row:after, .u-cf {
-    content: none;
-    display: table;
-    clear: both;
-}

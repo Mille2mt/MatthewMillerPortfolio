@@ -1,18 +1,19 @@
 import React from 'react';
-import 'react-skeleton-css/styles/skeleton.2.0.4.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithubSquare, faCodepen } from '@fortawesome/free-brands-svg-icons';
 
 //added responsive layout for mobile
 const Header = (props) => (
-        <div className ='nav'>
-            <div className='row .u-max-full-width'>
-                <div size={6}>
+    <div className='section nav'>
+        <div className='container'>
+            <div className='row'>
+                <div className='one-third column details'>
                     <h3 className='nav--logo'>{props.logo}</h3>
                     <h5 className='nav--quote'>{props.quote}</h5>
                 </div>
-                <div size={6}>
-                    <ul className='headerIconList'>                      
+                <div className='one-third column'></div>
+                <div className='one-third column headerIconList u-pull-right'>
+                    <ul>                      
                         <a href='https://www.linkedin.com/in/mille2mt/' target='_blank'><FontAwesomeIcon className='socialLink' icon={faLinkedin} /></a>
                         <a href='https://github.com/Mille2mt' target='_blank'><FontAwesomeIcon className='socialLink' icon={faGithubSquare} /></a>
                         <a href='https://codepen.io/mille2mt' target='_blank'><FontAwesomeIcon className='socialLink' icon={faCodepen} /></a>            
@@ -20,9 +21,27 @@ const Header = (props) => (
                 </div>
             </div>
         </div>
+    
+    </div>
 )
 
-// removed unresponsible desktop only version
+// <div className='nav row'>
+//         <div className='three columns u-cf'>
+//             <h3 className='nav--logo'>{props.logo}</h3>
+//             <h5 className='nav--quote'>{props.quote}</h5>
+//         </div>
+//         <div className='three columns u-pull-right'>
+//             <div className='headerIconList'>
+//                 <ul>                      
+//                     <a href='https://www.linkedin.com/in/mille2mt/' target='_blank'><FontAwesomeIcon className='socialLink' icon={faLinkedin} /></a>
+//                     <a href='https://github.com/Mille2mt' target='_blank'><FontAwesomeIcon className='socialLink' icon={faGithubSquare} /></a>
+//                     <a href='https://codepen.io/mille2mt' target='_blank'><FontAwesomeIcon className='socialLink' icon={faCodepen} /></a>            
+//                 </ul>  
+//             </div>
+//         </div>
+//     </div>
+
+// removed unresponsive desktop only version
 // const Header = (props) => {
 //     return (
 //         <div className='nav'>
