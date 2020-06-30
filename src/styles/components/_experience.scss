@@ -1,6 +1,5 @@
 .experience {
     background: $dark;
-    padding: $l-size;
     margin-bottom: $xl-size;
 }
 
@@ -12,10 +11,16 @@
     border-bottom: 4px solid $lime;
     font-size: $l-size;
     margin: 0 auto;
-    max-width: 20%;
+    max-width: 70%;
     padding-bottom: 10px;    
     text-align: center;
 }
+
+@media screen and (min-width: 1400px) {
+    .experience .title {
+      max-width: 20%;
+    }
+  }
 
 .experience p {
     margin: 20px auto;

@@ -1,3 +1,5 @@
+
+
 .carousel .slide {
     background: $dark;
     align-items: center;
@@ -12,10 +14,12 @@
     border-left: 25px solid black;
     margin-right: 20px;
     margin-top: 125px;
+    margin-bottom: 125px;
 }
 
 .carousel .control-prev.control-arrow:before {
     border-right: 25px solid black;
     margin-left: 20px;
     margin-top: 125px;
+    margin-bottom: 125px;
 }
