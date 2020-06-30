@@ -16,8 +16,10 @@ export default class Portfolio extends React.Component {
 
         return (
             <div>
-            <Header logo={logo} quote={quote}/>
-            <Jumbotron />
+                <Header logo={logo} quote={quote}/>
+                <Jumbotron />
+                <AboutMe /> 
+            
                 
                               
             </div>
@@ -27,7 +29,7 @@ export default class Portfolio extends React.Component {
 
 
 
-// <AboutMe />         
+        
 // <HireMe />    
 // <Experience />                
 // <ContactMe />

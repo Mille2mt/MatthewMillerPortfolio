@@ -1,25 +1,7 @@
 .aboutme {
     background: $dark;
     margin: $xl-size;
-    padding: 0;
-}
-
-.aboutme--container {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-}
-
-.aboutme--container h4 {
-    border-bottom: 4px solid $lime;
-    font-size: $l-size;
-    padding-bottom: 10px;    
-}
-
-.aboutme--info {
     text-align: center;
-    line-height: $l-size;
-    max-width: 60%;
 }
 
 .techList {
