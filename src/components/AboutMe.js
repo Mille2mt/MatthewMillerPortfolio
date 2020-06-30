@@ -21,7 +21,7 @@ export default class AboutMe extends React.Component {
         <div className='section aboutme'>
             <div className='container'>
                 <div className='row u-full-width'>
-                    <p>With almost a decade of experience in the fitness and rehab industry, I have decided to take a leap of faith and make a career change to the world of IT. I find it exciting and challenging, while also stable with immense opportunities for personal and career growth. Thoughout the years, I have always been deemded the in-house tech guy as I am naturally technologically savvy. Through experience, this has made me realize my worth and potential and has motivated me to make this career change. I am ecstatic to get into the field and show the world what I am capable of. I am self-taught in the basics of: </p>
+                    <p>With almost a decade of experience in the fitness and rehab industry, I have decided to take a leap of faith and make a career change to the world of IT. I find it exciting and challenging, while also stable with immense opportunities for personal and career growth. Throughout the years, I have always been deemed the in-house tech guy as I am naturally technologically savvy. Through experience, this has made me realize my worth and potential and has motivated me to make this career change. I am ecstatic to get into the field and show the world what I am capable of. I am self-taught in the basics of: </p>
     
                     <ul className='techList'>
                         <li className='myHTML'>HTML,</li>
@@ -35,7 +35,7 @@ export default class AboutMe extends React.Component {
                                                 
                         <li><FontAwesomeIcon  className='myReact' icon={faReact} /> React</li>
                     </ul>                                          
-                    <p>I look to continue learning past front end tech. Back end technologies have really caught my eye through my years of learning and I am eager to learn Node.js. I have heard considerable things about Mongo as well as Express and I aspire to be your next full stack developer. </p>    
+                    <p>I look to continue learning past the front end side of things. Back end technologies have really caught my eye over the years and I am eager to learn Node.js. I have heard considerable things about Mongo as well as Express and I aspire to be your next full stack developer. </p>    
                 </div>
             </div>
         </div>
