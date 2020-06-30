@@ -6,7 +6,7 @@ import { faLinkedin, faGithubSquare, faCodepen } from '@fortawesome/free-brands-
 //added responsive layout for mobile
 const Header = (props) => (
         <div className ='nav'>
-            <div className='row .u-full-width'>
+            <div className='row .u-max-full-width'>
                 <div size={6}>
                     <h3 className='nav--logo'>{props.logo}</h3>
                     <h5 className='nav--quote'>{props.quote}</h5>
