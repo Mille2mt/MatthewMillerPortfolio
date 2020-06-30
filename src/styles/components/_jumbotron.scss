@@ -1,35 +1,8 @@
 .jumbotron {
     background: $darker;
-    margin: 0;
-    padding: 0;
-}
-
-.jumbotron--container {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;    
-    overflow: hidden;
 }
 
 .jumbotron--info {
     font-size: $l-size;
-    line-height: $l-size;
     text-align: center;
-}
-
-.jumbotron--image--container {
-    position: relative;
-}
-
-.myimage {
-    position: relative;
-    z-index: 2;
-}
-
-.circles {
-    position: absolute;
-    top: 25%;
-    left: -35%;
-    height: 140%;
-    z-index: 1;
 }

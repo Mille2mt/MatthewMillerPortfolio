@@ -3,6 +3,7 @@ import 'react-skeleton-css/styles/skeleton.2.0.4.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithubSquare, faCodepen } from '@fortawesome/free-brands-svg-icons';
 
+//added responsive layout for mobile
 const Header = (props) => (
         <div className ='nav'>
             <div className='row .u-full-width'>
@@ -21,7 +22,7 @@ const Header = (props) => (
         </div>
 )
 
-
+// removed unresponsible desktop only version
 // const Header = (props) => {
 //     return (
 //         <div className='nav'>
@@ -43,6 +44,7 @@ const Header = (props) => (
 //     )
 // }
 
+//removed old nav links
 // <div className='nav--links'>
 //     <button className='nav--button'>Home</button>
 //     <button className='nav--button'>About me</button>
