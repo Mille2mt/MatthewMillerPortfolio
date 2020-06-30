@@ -7,7 +7,7 @@ Project is currently in development. Mobile viewer functionality and responsivit
 #### To use:
 Clone down this repository - you will need `node` and `npm` installed globally on your machine.
 All other devDependencies can found in `package.json`.
-I use `yarn` as preference, but either will suffice.
+I use `yarn` as preference to `npm`. To install `yarn`, use `npm install yarn`.
 
 #### To run test build:
 
@@ -17,7 +17,7 @@ This will compile your current build to be viewed but not automatically update.
 #### To run test server:
 
 `yarn run serve`
-This will compile your current build and also automatically update.
+This will compile your current build and also automatically update the browser.
 
 #### To view App:
 
