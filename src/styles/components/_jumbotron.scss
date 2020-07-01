@@ -1,15 +1,22 @@
 .jumbotron {
     background: $darker;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .jumbotron--info {
     font-size: $l-size;
-    margin-top: 175px;
+    padding-top: 20%;
     text-align: center;
 }
 
-.image-container {
-    margin-left: -50px;
+.jumbotron .row {
+    align-items: center;
+}
+
+.myImage {
+    max-width: 100%;
+    padding-top: 20%;
 }
 
 @media screen and (min-width: 1400px) {

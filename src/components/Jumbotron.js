@@ -6,7 +6,7 @@ const Jumbotron = () => (
     <div className='section jumbotron'>
         <div className='container'>
             <div className='row u-full-width'>
-                <div className='five columns jumbotron--info'>
+                <div className='six columns jumbotron--info'>
                     <h1>I'm Matthew</h1>
                     <h4>Your next entry-level Web Developer and UI/UX designer.</h4>
                     <button className='button'>Hire me.</button>
