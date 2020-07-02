@@ -1,38 +1,70 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
+const initialState = {
+  name: '',
+  phone: '',
+  email: '',
+  message: ''
+}
+
 export default class ContactUs extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      name: '',
-      phone: '',
-      email: '',
-      message: ''      
-    };
+    this.state = initialState;
   }
 
   handleChange = (e) => {
     this.setState({ [e.target.name]: e.target.value });
   };
 
+  validate = () => {
+    let emailError = '';
+    let nameError = '';
+    let phoneError ='';
+
+    if (!this.state.phone || this.state.phone.length > 10) {
+      phoneError = 'invalid phone';
+    }
+
+    if (!this.state.name) {
+      nameError = 'invalid name';
+    }
+
+    if (!this.state.email.includes('@')) {
+      emailError = 'invalid email';
+    }
+
+    if (emailError || nameError || phoneError) {
+      this.setState({ emailError, nameError, phoneError });
+      return false;
+    }
+    return true;
+  };
+
   handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        'gmail', 
-        'portfoliotemplate', 
-        '.contact-form', 
-        'user_wQPetSHncS1Xuyip0lihm'
-      )
-      .then()
-      .catch();
-    this.setState({
-      name: '',
-      phone: '',
-      email: '',
-      message: ''
-    });
+    const isValid = this.validate();
+    if (isValid) {
+        emailjs
+        .sendForm(
+          'gmail', 
+          'portfoliotemplate', 
+          '.contact-form', 
+          'user_wQPetSHncS1Xuyip0lihm'
+        )
+        .then()
+        .catch();
+      this.setState({
+        name: '',
+        phone: '',
+        email: '',
+        message: ''
+      });
+    }    
+    if (!isValid) {
+      alert('Please enter a valid name, phone, and email');
+    }
   };
 
   render() {
@@ -54,10 +86,10 @@ export default class ContactUs extends React.Component {
             <br />
           <label>Phone : </label>
           <input
-            type='number'
+            type='text'
             id='phone'
             name='phone'
-            placeholder='Your phone number'
+            placeholder='XXXXXXXXXX'
             value={this.state.phone}
             onChange={this.handleChange}
             />
@@ -67,7 +99,7 @@ export default class ContactUs extends React.Component {
             type='text'
             id='email'
             name='email'
-            placeholder='Your email'
+            placeholder='email@host.com'
             value={this.state.email}
             onChange={this.handleChange}
             />
