@@ -1,6 +1,6 @@
 import React from 'react';
 import Me from '../assets/Me.png'
-
+import MyModal from './MyModal';
 
 const Jumbotron = () => (
     <div className='section jumbotron'>
@@ -9,8 +9,7 @@ const Jumbotron = () => (
                 <div className='six columns jumbotron--info'>
                     <h1>I'm Matthew</h1>
                     <h4>Your next entry-level Web Developer and UI/UX designer.</h4>
-                    <button className='button'>Hire me.</button>
-                    <p>(button modal under construction)</p>
+                    <MyModal />
                 </div>                
                 <div className='six columns image-container'>
                     <img className='myImage' src={Me} alt='img of me' />
