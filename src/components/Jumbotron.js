@@ -10,6 +10,7 @@ const Jumbotron = () => (
                     <h1>I'm Matthew</h1>
                     <h4>Your next entry-level Web Developer and UI/UX designer.</h4>
                     <button className='button'>Hire me.</button>
+                    <p>(button modal under construction)</p>
                 </div>                
                 <div className='six columns image-container'>
                     <img className='myImage' src={Me} alt='img of me' />

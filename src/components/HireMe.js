@@ -6,7 +6,7 @@ const HireMe = () => {
             <div className='container'>
                 <div className='hireContainer'>
                     <h3 className='title'>Project in Mind?</h3>
-                    <h3 className='subtitle'>Contact me below!</h3>
+                    <p className='subtitle'>Contact me below!</p>
                 </div>   
             </div>         
         </div>
