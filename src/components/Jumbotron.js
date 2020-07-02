@@ -19,6 +19,8 @@ const Jumbotron = () => (
     </div>
 )
 
+// to be added when modal is ready
+// 
 
 //removed unresponsible jumbotron
 // <div className='jumbotron row'>
