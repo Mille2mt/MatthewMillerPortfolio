@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+input {
+    width: 50%;
+}
+
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
     color: $off-white;
 }

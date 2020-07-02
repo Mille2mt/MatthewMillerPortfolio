@@ -12,7 +12,7 @@ const customStyles = {
     height: '65%',
     left: '50%',
     marginRight: '-50%',
-    padding: '5%',
+    padding: '2.5%',
     right: 'auto',
     textAlign: 'center',
     top: '50%',

@@ -109,7 +109,7 @@ export default class ContactUs extends React.Component {
             type='text'
             id='message'
             name='message'
-            placeholder='How may I be of assistance?'
+            placeholder='How may I help?'
             value={this.state.message}
             onChange={this.handleChange}
             />
