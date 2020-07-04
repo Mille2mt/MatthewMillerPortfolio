@@ -6,7 +6,7 @@ const ContactMe = () => (
             <h3>Contact Information</h3>
             <div className='contactInfoList'>
                 <li className='info'>Charleston, South Carolina</li>
-                <li className='info'>540.529.3771</li>
+                <li className='info'><a href='tel:5405293771'>540.529.3771</a></li>
                 <li className='info'>Miller2mt@gmail.com</li>     
             </div>
         </div>
