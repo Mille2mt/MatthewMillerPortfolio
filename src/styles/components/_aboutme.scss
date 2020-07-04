@@ -38,6 +38,10 @@
     font-family: 'Staatliches', cursive;
 }
 
+.Typist {
+    margin-bottom: 10px;
+}
+
 .myReact {
     color: rgb(97, 219, 251);
     font-family: 'Nunito Sans', sans-serif;
@@ -49,6 +53,8 @@
 
 .comingSoon {
     font-size: $m-size;
+    line-height: 0px;
+    padding-bottom: 3%;
 }
 
 .button--container {

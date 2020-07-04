@@ -27,14 +27,15 @@ export default class AboutMe extends React.Component {
                         <li className='myHTML'>HTML,</li>
                         <li><span className='myC'>C</span><span className='myS1'>S</span><span className='myS2'>S</span>,</li>
                                         
-                        <VisibilitySensor>
+                        <VisibilitySensor className='myJavascript'>
                             {({isVisible}) =>
                                 <div>{isVisible ? animation() : '|'}</div>
                             }
                         </VisibilitySensor>
                                                 
                         <li><FontAwesomeIcon  className='myReact' icon={faReact} /> React, &</li>
-                        <li>N<span className='myNode'>o</span>de<span className='myNode'>.js</span><span className='comingSoon'> (coming soon)</span></li>
+                        <li>N<span className='myNode'>o</span>de<span className='myNode'>.js</span></li>
+                        <li className='comingSoon'>(coming soon)</li>
                     </ul>                                          
                     <p>I look to continue learning past the front end side of things. Back end technologies have really caught my eye over the years and I am eager to learn Node.js. I have heard considerable things about Mongo as well as Express and I aspire to be your next full stack developer. </p>    
                 </div>
