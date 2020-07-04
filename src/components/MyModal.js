@@ -9,15 +9,13 @@ const customStyles = {
     bottom: 'auto',
     borderRadius: '10px',
     fontSize: '12px',
-    height: '65%',
     left: '50%',
     marginRight: '-50%',
-    padding: '2.5%',
+    padding: '10%',
     right: 'auto',
     textAlign: 'center',
     top: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: '60%'   
+    transform: 'translate(-50%, -50%)'
   }
 };
 

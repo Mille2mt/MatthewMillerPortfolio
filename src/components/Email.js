@@ -61,11 +61,11 @@ export default class ContactUs extends React.Component {
         email: '',
         message: ''
       });
+      alert('Message sent!');
     }    
     if (!isValid) {
       alert('Please enter a valid name, phone, and email');
-    }
-    alert('Message sent!');
+    }    
   };
 
   render() {
