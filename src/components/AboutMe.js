@@ -13,7 +13,7 @@ export default class AboutMe extends React.Component {
             <Typist.Delay ms={1000} />
                 JavScrip
             <Typist.Backspace count={5} delay={400} />
-                aScript &      
+                aScript,       
         </Typist>
     );
     
@@ -33,7 +33,8 @@ export default class AboutMe extends React.Component {
                             }
                         </VisibilitySensor>
                                                 
-                        <li><FontAwesomeIcon  className='myReact' icon={faReact} /> React</li>
+                        <li><FontAwesomeIcon  className='myReact' icon={faReact} /> React, &</li>
+                        <li>N<span className='myNode'>o</span>de<span className='myNode'>.js</span><span className='comingSoon'> (coming soon)</span></li>
                     </ul>                                          
                     <p>I look to continue learning past the front end side of things. Back end technologies have really caught my eye over the years and I am eager to learn Node.js. I have heard considerable things about Mongo as well as Express and I aspire to be your next full stack developer. </p>    
                 </div>
