@@ -65,6 +65,7 @@ export default class ContactUs extends React.Component {
     if (!isValid) {
       alert('Please enter a valid name, phone, and email');
     }
+    alert('Message sent!');
   };
 
   render() {
@@ -109,7 +110,7 @@ export default class ContactUs extends React.Component {
             type='text'
             id='message'
             name='message'
-            placeholder='How may I help?'
+            placeholder='How can I help?'
             value={this.state.message}
             onChange={this.handleChange}
             />
