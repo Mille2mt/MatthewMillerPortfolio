@@ -7,6 +7,7 @@ import HireMe from './HireMe';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
 import DemoCarousel from './Carousel';
+import MyWorks from './MyWorks';
 
 export default class Portfolio extends React.Component {    
     
@@ -19,7 +20,8 @@ export default class Portfolio extends React.Component {
                 <Header logo={logo} quote={quote}/>
                 <Jumbotron />            
                 <AboutMe />
-                <HireMe /> 
+                <HireMe />
+                <MyWorks />                 
                 <DemoCarousel />
                 <ContactMe />
                 <Footer logo={logo} />

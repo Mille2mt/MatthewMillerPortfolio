@@ -1,7 +1,6 @@
 .aboutme {
     background: $dark;
-    margin-top: $xl-size;
-    margin-bottom: $xl-size;
+    padding: $xl-size 0;
     text-align: center;
 }
 
@@ -10,7 +9,7 @@
     list-style: none;    
     line-height: $xl-size;
     margin: 0 auto;
-    padding: 0;
+    padding-bottom: $l-size;
     text-align: center;
 }
 

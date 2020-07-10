@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from '../assets/Me.png'
+import Me from '../assets/Me.png';
 import MyModal from './MyModal';
 
 const Jumbotron = () => (
