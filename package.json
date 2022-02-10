@@ -28,7 +28,7 @@
     "git": "^0.1.5",
     "live-server": "^1.2.1",
     "netlify-cli": "^2.54.0",
-    "node-sass": "4.13.1",
+    "node-sass": "7.0.0",
     "normalize.css": "7.0.0",
     "react": "^16.13.1",
     "react-dom": "16.8.0",
